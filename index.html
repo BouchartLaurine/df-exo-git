@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
+  <head> 
     <nav>
       <ul>
         <li><a href="#">Exo1</a></li>
@@ -16,7 +16,38 @@
         <li><a href="#">Exo4</a></li>
       </ul>
     </nav>
+  </head>
+  <!-- --------------------Nav ↑ ------------------ -->
+  <main>
+     <!-- Section 1 -->
+  <section>
+    <h2>1. Vérifier si un nombre est pair ou impair</h2>
+    <input type="number" id="inputPair" placeholder="Entrez un nombre">
+    <button onclick="verifierPair()">Vérifier</button>
+    <p id="resultatPair"></p>
+  </section>
+
+  <!-- Section 2 -->
+  <section>
+    <h2>2. Afficher le plus grand des deux nombres</h2>
+    <input type="number" id="nombre1" placeholder="Premier nombre">
+    <input type="number" id="nombre2" placeholder="Deuxième nombre">
+    <button onclick="comparer()">Comparer</button>
+    <p id="resultatComparaison"></p>
+  </section>
   </main>
-  <h1>Test</h1>
+  <!-- ------------------Main ↑----------------------- -->
+  <footer>
+      <nav>
+      <ul>
+        <li><a href="#">Exo1</a></li>
+        <li><a href="#">Exo2</a></li>
+        <li><a href="#">Exo3</a></li>
+        <li><a href="#">Exo4</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+
 </body>
 </html>
