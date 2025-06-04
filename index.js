@@ -29,46 +29,27 @@
 
 // ---------------------------Fonction le plus grand chiffre ↑ Exo2-------------------------------------------
 
-
- 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
+/*
+ function tableMultiplication(n) {
+   for (let i = 0; i < 10; i++) {
+   console.log(n + "x" + i + "=" + (n * i ));
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-  function check() {
-      let input = document.getElementById("myInput").value;
-      if (input === "") {
-        alert("Veuillez entrer un nombre");
-      } else {
-        let number = Number(input);
-        if (isNaN(number)) {
-          alert("Ce n'est pas un nombre valide");
-        } else {
-          if (number % 2 === 0) {
-            alert("Nombre pair");
-          } else {
-            alert("Nombre impair");
-          }
-        }
-      }
-   } 
-
-
+tableMultiplication(5);
 */
+
+// ---------------------------Fonction Table de multiplication ↑ ----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
