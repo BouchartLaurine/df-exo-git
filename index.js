@@ -1,24 +1,24 @@
 
 
-function sommeChiffres(n){
-  let somme = 0;
-  Number("123") === 123; // Conversion de la chaîne de caractères en nombre
-  
+
+
+
+
+
+
+// ---------------------------Fonction Factorielle ↓ Exo1----------------------------------------------
+
+function factorielle(n) {
+  let resultat = 1; // Départ 1 pour la multiplication
+  for (let i = 1; i <= n; i++) {
+    resultat *= i;
+  }
+  return resultat;
 }
+console.log(factorielle(5));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// ----------------------------------------------------------------------------------------------
 
 // ---------------------------EXO DU 03/06/2025 D ↓-----------------------------------------------
 
