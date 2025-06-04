@@ -39,17 +39,28 @@
 tableMultiplication(5);
 */
 
-// ---------------------------Fonction Table de multiplication ↑ ----------------------------------------------
+// ---------------------------Fonction Table de multiplication ↑ Exo3----------------------------------------------
+/*
+function sommejusqua(n){
+  let somme = 0;
+  for (let i = 1; i <= n; i++){
+    somme += i;}
+    return somme;
+}
+       
+console.log(sommejusqua(5));
+*/
 
+// ---------------------------Fontion factorielle ↑ Exo4----------------------------------------------
+/*
+function factorielle(n) {
+  let resultat = 1; // Départ 1 pour la multiplication
+  for (let i = 1; i <= n; i++) {
+    resultat *= i;
+  }
+  return resultat;
+}
+console.log(factorielle(5)); 
+*/
 
-
-
-
-
-
-
-
-
-
-
-
+// ---------------------------Fonction Palindrome ↑ Exo5----------------------------------------------
