@@ -1,5 +1,27 @@
 
 
+function sommeChiffres(n){
+  let somme = 0;
+  Number("123") === 123; // Conversion de la chaîne de caractères en nombre
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------EXO DU 03/06/2025 D ↓-----------------------------------------------
+
  /* 
     function check (pairimpair) {
       let nbr;
@@ -51,7 +73,7 @@ function sommejusqua(n){
 console.log(sommejusqua(5));
 */
 
-// ---------------------------Fontion factorielle ↑ Exo4----------------------------------------------
+// ---------------------------Fontion sommejusqua ↑ Exo4----------------------------------------------
 /*
 function factorielle(n) {
   let resultat = 1; // Départ 1 pour la multiplication
@@ -63,4 +85,7 @@ function factorielle(n) {
 console.log(factorielle(5)); 
 */
 
-// ---------------------------Fonction Palindrome ↑ Exo5----------------------------------------------
+// ---------------------------Fonction multiplication ↑ Exo5----------------------------------------------
+
+
+// ---------------------------Fonction Factorielle ↑ Exo6----------------------------------------------
