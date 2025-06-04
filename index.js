@@ -1,15 +1,34 @@
 
 
+// ---------------------------Fonctions compter les voyelles ↓ Exo7-------------------------------------------
 
+/*
+function compterVoyelles(texte){
+  let voyelles = "aeiouyAEIOUY";
+  let compteur = 0;     
+ // Parcourir chaque caractère du texte
+ for (let lettre of texte) {
+    // Vérifier si le caractère est une voyelle
+    if (voyelles.includes(lettre)) {
+      compteur++; // Incrémenter le compteur si c'est une voyelle
+    }
+  }
+  return compteur; 
+}
+
+console.log(compterVoyelles("Bonjour")); // Affiche 3
+*/
 
 // ---------------------------Fonction pair/impair ↓ Exo6-----------------------------------------------
+
+/*
 function estpanlindrome(mot) {
   const motInverse = mot.split('').reverse().join('');
   return mot === motInverse;
 }
 console.log(estpanlindrome("kayak"));
 console.log(estpanlindrome("bonjour"));
-
+*/
 
 // ---------------------------Fonction Factorielle ↓ Exo5----------------------------------------------
  /*
