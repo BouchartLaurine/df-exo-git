@@ -1,16 +1,44 @@
 
-// -----Fonction plus grand élément d'un tableau ↓ Exo9---------------
 
 
-function plusGrandElement(tab) {
-  
+
+
+// ---------------------Fonction FizzBuzz ↓ Exo10-------------------------------------------
+
+/*
+function FizzBuzz () {
+  for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz"); // Affiche "FizzBuzz" si le nombre est divisible par 3 et 5
+    } else if (i % 3 === 0) {
+      console.log("Fizz"); // Affiche "Fizz" si le nombre est divisible par 3
+    } else if (i % 5 === 0) {
+      console.log("Buzz"); // Affiche "Buzz" si le nombre est divisible par 5
+    } else {
+      console.log(i); // Affiche le nombre lui-même s'il n'est pas divisible par 3 ou 5
+    }
+  }
 }
 
+FizzBuzz(8); // Appel de la fonction pour exécuter le FizzBuzz
+*/
 
+// -----Fonction plus grand élément d'un tableau ↓ Exo9---------------
 
+/*
+function plusGrandElement(tab) {
+  let max = tab[0]; // Initialiser max avec le premier élément du tableau
+  for (let i = 1; i < tab.length; i++) { // Parcourir le tableau à partir du deuxième élément
+    if (tab[i] > max) { // Si l'élément courant est plus grand que max
+      max = tab[i]; // Mettre à jour max
+    }
+  }
+  return max; // Retourner le plus grand élément trouvé
+}
 
-
-
+console.log(plusGrandElement([1, 2, 3, 4, 5])); // Affiche 5
+console.log(plusGrandElement([85,36,159,5,23,78])) //Affiche 159
+*/
 
 // ---------------------------Fonction inverser une chaine ↓ Exo8-----------------------------------------------
 /*
