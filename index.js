@@ -1,4 +1,30 @@
 
+// -----Fonction plus grand élément d'un tableau ↓ Exo9---------------
+
+
+function plusGrandElement(tab) {
+  
+}
+
+
+
+
+
+
+
+// ---------------------------Fonction inverser une chaine ↓ Exo8-----------------------------------------------
+/*
+function inverserChaine(mot) {
+  let motInverse = ""; // Initialiser une chaîne vide pour stocker le résultat
+  for (let i = mot.length - 1; i >= 0; i--) { // Parcourir le mot de la fin au début
+    motInverse += mot[i]; // Ajouter chaque caractère à la chaîne inversée
+  }
+  return motInverse; 
+}
+console.log(inverserChaine("Bonjour")); 
+console.log(inverserChaine("AuRevoir"));
+*/
+
 
 // ---------------------------Fonctions compter les voyelles ↓ Exo7-------------------------------------------
 
@@ -43,7 +69,7 @@ console.log(estpanlindrome("bonjour"));
  */
 
 
-// ---------------------------EXO DU 03/06/2025 D ↓-----------------------------------------------
+// ---------------------------EXO DU 03/06/2025  ↓-----------------------------------------------
 
  /* 
     function check (pairimpair) {
