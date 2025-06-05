@@ -1,8 +1,20 @@
 
 
+// ---------------------------------ExoSérie2----------------------------------------------------------
 
+/*
+function sommeChiffres(n) {
+  let somme = 0;
+  String(123).split('').forEach(chiffre => {
+    somme += Number(chiffre); // Convertit le caractère en nombre et l'ajoute à la somme
+  });
+  return somme; // Retourne la somme des chiffres
+}
+console.log(sommeChiffres(123)); // Affiche 6
+*/
 
-
+//------------------------------------------------------------------------------------------------------------------------------------------
+ 
 // ---------------------Fonction FizzBuzz ↓ Exo10-------------------------------------------
 
 /*
@@ -165,4 +177,3 @@ console.log(factorielle(5));
 // ---------------------------Fonction multiplication ↑ Exo5----------------------------------------------
 
 
-// ---------------------------Fonction Factorielle ↑ Exo6----------------------------------------------
